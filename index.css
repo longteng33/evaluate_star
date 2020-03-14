@@ -1,0 +1,72 @@
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.evaluate-con {
+    position: relative;
+    width: 450px;
+    height: 19px;
+    margin: 10px auto;
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+    background: rgba(68, 208, 233, 0.3);
+}
+
+.evaluate-con ul {
+    float: left;
+    height: 19px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.evaluate-con ul .star {
+   float: left;
+    width: 19px;
+    height: 19px;
+    background: url("./img/star.png");
+    margin-right: 5px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.evaluate-con ul li.active {
+    background-position: 0 -28px;
+}
+.evaluate-con strong{
+    color: red;
+    font-weight: normal;
+}
+.evaluate-con .result{
+    float: left;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+}
+.evaluate-con .result .score {
+   margin-right: 5px;
+}
+.evaluate-con .result p{
+    margin: 0;
+    display: inline-block;
+}
+.evaluate-con .des{
+    position: absolute;
+    display: none;
+    width: 159px;
+    height: 60px;
+    background: url("./img/icon.gif");
+    padding: 7px 10px 0;
+    line-height: 18px;
+    top: 30px;
+    left: -70px;
+}
+.evaluate-con .des .eval{
+    margin-left: 5px;
+}
+.evaluate-con .des p{
+    margin: 0;
+}
